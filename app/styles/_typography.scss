@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
+/* styles for all typography */
+html{
+	font-size: 16px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+.text--center{
+	text-align: center;
+}
+.text--bold{
+	font-weight: bold;
+}
+.text--light{
+	font-weight: 300;
+}
+.text--ultra-light{
+	font-weight: 200;
+}
+.text--white{
+	color: white;
+}
+.text--gray{
+	color: $gray;
+}
+.text--letter-spacing{
+	letter-spacing: 3px;
+}
+.paragraph{
+	font-size: 1rem;
+	letter-spacing: 1.1px;
+	line-height: 1.8;
+}
+.paragraph--holder{
+	max-width: 500px;
+}
+.main-heading{
+	font-size: 2.6rem;
+	font-weight: 300;
+	line-height: 1.5;
+	@media screen and(max-width:767px){
+		font-size: 2rem;
+		line-height: 1;
+	}	
+}
+.main-heading--spacing{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main-heading--width{
+	max-width: 550px;
+}
+.section-heading{
+	font-size: 2.2rem;
+	@media screen and(max-width:767px){
+		font-size: 1.8rem;	
+	}
+}
+.section-heading--spacing{
+	margin-bottom: 45px;
+}	
+

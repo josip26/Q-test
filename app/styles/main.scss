@@ -1,0 +1,45 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+/* sass files */
+
+@import "colors";
+@import "header";
+@import "index_page";
+@import "typography";
+@import "massonry_gallery";
+
+/* resets */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+button{
+	border: none;
+	padding: none;
+	margin: none;
+	background-color: transparent;
+}
+button, button:hover,button:visited,button:focus,button:active{
+	border: none;
+	outline: 0;
+}
